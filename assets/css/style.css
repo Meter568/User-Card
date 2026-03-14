@@ -1,0 +1,121 @@
+@import "./reset.css";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    outline: 2px solid black;
+    border-radius: 10px;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.img-container {
+    margin-top: 5px;
+    height: 305px;
+}
+
+.img-container > .photo {
+    border: 10px solid rgb(241, 241, 241);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+
+.info-header {
+    text-align: center;
+    width: 70%;
+}
+
+.info-header > h2 {
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.info-header > p {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.info-container > button {
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(91, 170, 250);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #24384DFF;
+    color: rgb(250, 70, 70);
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer > .icons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    padding: 15px 10px;
+}
+
+.footer > .icons:not(:last-child) {
+    border-right: 1px solid rgb(113, 113, 113);
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer span {
+    color: white;
+    font-size: 14px;
+}
+
+.footer i {
+    font-size: 28px;
+}
+
+i.paper {
+    font-size: 24px;
+}
